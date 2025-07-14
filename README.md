@@ -1,6 +1,6 @@
 # 快速开始
 
-FutuerDrive 是一个模块化的自动驾驶开发平台，提供实用工具、开箱即用的解决方案和高效的开发部署流程，旨在简化和加速自动驾驶相关项目的研发。
+FutureDrive 是一个模块化的自动驾驶开发平台，提供实用工具、开箱即用的解决方案和高效的开发部署流程，旨在简化和加速自动驾驶相关项目的研发。
 
 ---
 
@@ -13,14 +13,14 @@ FutuerDrive 是一个模块化的自动驾驶开发平台，提供实用工具�
 
 ## 安装方式一：直接下载 AppImage
 
-1. 前往 [Releases 页面](https://github.com/xautomove/FutuerDrive/releases) 下载最新的 `FutuerDrive-x.x.x.AppImage` 文件。
+1. 前往 [Releases 页面](https://github.com/xautomove/FutureDrive/releases) 下载最新的 `FutureDrive-x.x.x.AppImage` 文件。
 2. 赋予可执行权限：
    ```bash
-   chmod +x FutuerDrive-x.x.x.AppImage
+   chmod +x FutureDrive-x.x.x.AppImage
    ```
 3. 运行：
    ```bash
-   ./FutuerDrive-x.x.x.AppImage
+   ./FutureDrive-x.x.x.AppImage
    ```
 
 ---
@@ -29,8 +29,8 @@ FutuerDrive 是一个模块化的自动驾驶开发平台，提供实用工具�
 
 1. 克隆仓库：
    ```bash
-   git clone https://github.com/xautomove/FutuerDrive.git
-   cd FutuerDrive
+   git clone https://github.com/xautomove/FutureDrive.git
+   cd FutureDrive
    ```
 2. 安装 yarn（如未安装）：
    ```bash
@@ -49,4 +49,4 @@ FutuerDrive 是一个模块化的自动驾驶开发平台，提供实用工具�
 
 ## 更多信息
 
-- [FutuerDrive 仓库](https://github.com/xautomove/FutuerDrive)
+- [FutureDrive 仓库](https://github.com/xautomove/FutureDrive)
