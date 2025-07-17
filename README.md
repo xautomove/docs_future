@@ -6,7 +6,8 @@ FutureDrive 是一个模块化的自动驾驶开发平台，提供实用工具�
 
 ## 运行前置条件
 
-- 推荐操作系统：**Ubuntu 22.04**
+- 操作系统：**Ubuntu 22.04**
+- 缓存：**redis**
 - 建议提前安装好 Node.js（如需源码运行）
 
 ---
@@ -18,11 +19,10 @@ FutureDrive 是一个模块化的自动驾驶开发平台，提供实用工具�
    ```bash
    chmod +x FutureDrive-x.x.x.AppImage
    ```
-3. 运行：
+3. 双击运行或命令：
    ```bash
    ./FutureDrive-x.x.x.AppImage
    ```
-
 ---
 
 ## 安装方式二：源码运行（开发模式）
@@ -39,6 +39,10 @@ FutureDrive 是一个模块化的自动驾驶开发平台，提供实用工具�
 3. 安装依赖：
    ```bash
    yarn install
+   ```
+4. 安装redis
+   ```bash
+   sudo apt install redis-server
    ```
 4. 启动开发环境：
    ```bash
