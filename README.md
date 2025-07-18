@@ -8,6 +8,20 @@ FutureDrive 是一个模块化的自动驾驶开发平台，提供实用工具�
 
 - 操作系统：**Ubuntu 22.04**
 - 缓存：**redis**
+- redis 安装命令（Ubuntu 22.04）：
+  ```bash
+  sudo apt update
+  sudo apt install redis-server
+  ```
+  安装完成后可通过以下命令启动 redis 服务：
+  ```bash
+  sudo systemctl start redis-server
+  ```
+  并设置开机自启（可选）：
+  ```bash
+  sudo systemctl enable redis-server
+  ```
+
 - 建议提前安装好 Node.js（如需源码运行）
 
 ---
